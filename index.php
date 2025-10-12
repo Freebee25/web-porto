@@ -43,7 +43,6 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact" class="max-w-3xl mx-auto px-6 py-12">
       <div class="reveal glass rounded-2xl p-6 shadow-md">
         <h2 class="text-2xl font-semibold">Contact</h2>

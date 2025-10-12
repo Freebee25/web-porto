@@ -22,7 +22,7 @@
 
     <!-- Copyright -->
     <p class="text-sm text-gray-600">
-      © <?= date('Y') ?> by <span class="font-semibold text-gray-800">fribyanyusuf</span> — Built with <span class="text-red-500">❤</span>
+      © <?= date('Y') ?> by <span class="font-semibold text-gray-800">fribyanyusuf</span> — All Rights Reserved</span>
     </p>
   </div>
 </footer>

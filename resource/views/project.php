@@ -20,8 +20,8 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Project 1 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center">Inventory PWA</div>
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
+        <div class="h-40 rounded-lg bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center ">Inventory PWA</div>
         <h3 class="mt-4 font-semibold">Inventory PWA</h3>
         <p class="mt-2 text-sm text-slate-500">Progressive web app untuk manajemen stok yang bisa berjalan offline.</p>
         <div class="mt-4 flex items-center justify-between">
@@ -31,7 +31,7 @@
       </article>
 
       <!-- Project 2 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
         <div class="h-40 rounded-lg bg-gradient-to-br from-pink-50 to-yellow-50 flex items-center justify-center">File Storage</div>
         <h3 class="mt-4 font-semibold">File Storage</h3>
         <p class="mt-2 text-sm text-slate-500">Aplikasi upload/download file dengan enkripsi dan proteksi password.</p>
@@ -42,20 +42,20 @@
       </article>
 
       <!-- Project 3 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-green-50 to-cyan-50 flex items-center justify-center">Dashboard Admin</div>
-        <h3 class="mt-4 font-semibold">Dashboard Admin</h3>
-        <p class="mt-2 text-sm text-slate-500">Dashboard dengan chart, filter, dan laporan harian.</p>
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
+        <img src="../../assets/img/milcup.PNG" class="h-40 rounded-lg bg-gradient-to-br from-green-50 to-cyan-50 flex items-center justify-center" alt="milcup">
+        <h3 class="mt-4 font-semibold">Milcup</h3>
+        <p class="mt-2 text-sm text-slate-500">Website kedai kopi.</p>
         <div class="mt-4 flex items-center justify-between">
-          <div class="text-xs text-slate-400">Tech: Laravel</div>
-          <a class="text-indigo-600 text-sm font-medium" href="#">View</a>
+          <div class="text-xs text-slate-400">Tech: HTML, CSS</div>
+          <a class="text-indigo-600 text-sm font-medium" href="https://freebee25.github.io/milcup">View</a>
         </div>
       </article>
 
       <!-- Project 4 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">Company Profile</div>
-        <h3 class="mt-4 font-semibold">Company Profile</h3>
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
+        <img src="../../assets/img/violet.PNG" class="h-40 rounded-lg bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center" alt="violet">
+        <h3 class="mt-4 font-semibold">Violet Keystone</h3>
         <p class="mt-2 text-sm text-slate-500">Website profil perusahaan responsif dengan desain modern.</p>
         <div class="mt-4 flex items-center justify-between">
           <div class="text-xs text-slate-400">Tech: HTML, Tailwind</div>
@@ -64,7 +64,7 @@
       </article>
 
       <!-- Project 5 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
         <div class="h-40 rounded-lg bg-gradient-to-br from-orange-50 to-pink-50 flex items-center justify-center">Mini Game</div>
         <h3 class="mt-4 font-semibold">Mini Game Pixel</h3>
         <p class="mt-2 text-sm text-slate-500">Game pixel sederhana yang dibuat dengan Construct 2.</p>
