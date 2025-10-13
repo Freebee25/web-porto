@@ -22,7 +22,6 @@ $currentPage = basename($_SERVER['PHP_SELF']);
            class="hover:text-indigo-600 transition <?= $currentPage === 'about.php' ? 'text-indigo-600 font-semibold' : '' ?>">About</a>
         <a href="<?= $basePath ?>resource/views/project.php"
            class="hover:text-indigo-600 transition <?= $currentPage === 'project.php' ? 'text-indigo-600 font-semibold' : '' ?>">Projects</a>
-        <a href="<?= $basePath ?>index.php#contact" class="hover:text-indigo-600 transition">Contact</a>
       </nav>
 
       <!-- Mobile Menu Button -->

@@ -9,19 +9,30 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/filter.css">
 </head>
+
 <body class="antialiased text-slate-800 bg-gradient-to-b from-white via-slate-50 to-slate-100 min-h-screen">
 
   <?php include '../template/header.php' ?>
 
   <main class="pt-24 max-w-6xl mx-auto px-6 py-12">
     <h1 class="text-3xl font-bold mb-6 text-indigo-700">My Projects</h1>
-    <p class="text-slate-600 mb-10 max-w-2xl">Berikut beberapa proyek yang pernah saya buat.</p>
+    <p class="text-slate-600 mb-8 max-w-2xl">Berikut beberapa proyek yang pernah saya buat.</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Filter Buttons -->
+    <div class="flex flex-wrap gap-3 mb-10">
+      <button class="filter-btn px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium" data-filter="all">All</button>
+      <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="web">Web</button>
+      <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="app">App</button>
+      <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="game">Game</button>
+    </div>
+
+    <!-- Project Grid -->
+    <div id="projectGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Project 1 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center ">Inventory PWA</div>
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="app">
+        <div class="h-40 rounded-lg bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center">Inventory PWA</div>
         <h3 class="mt-4 font-semibold">Inventory PWA</h3>
         <p class="mt-2 text-sm text-slate-500">Progressive web app untuk manajemen stok yang bisa berjalan offline.</p>
         <div class="mt-4 flex items-center justify-between">
@@ -31,7 +42,7 @@
       </article>
 
       <!-- Project 2 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="app">
         <div class="h-40 rounded-lg bg-gradient-to-br from-pink-50 to-yellow-50 flex items-center justify-center">File Storage</div>
         <h3 class="mt-4 font-semibold">File Storage</h3>
         <p class="mt-2 text-sm text-slate-500">Aplikasi upload/download file dengan enkripsi dan proteksi password.</p>
@@ -42,8 +53,8 @@
       </article>
 
       <!-- Project 3 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
-        <img src="../../assets/img/milcup.PNG" class="h-40 rounded-lg bg-gradient-to-br from-green-50 to-cyan-50 flex items-center justify-center" alt="milcup">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="web">
+        <img src="../../assets/img/milcup.PNG" class="h-40 rounded-lg object-cover" alt="milcup">
         <h3 class="mt-4 font-semibold">Milcup</h3>
         <p class="mt-2 text-sm text-slate-500">Website kedai kopi.</p>
         <div class="mt-4 flex items-center justify-between">
@@ -53,8 +64,8 @@
       </article>
 
       <!-- Project 4 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
-        <img src="../../assets/img/violet.PNG" class="h-40 rounded-lg bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center" alt="violet">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="web">
+        <img src="../../assets/img/violet.PNG" class="h-40 rounded-lg object-cover" alt="violet">
         <h3 class="mt-4 font-semibold">Violet Keystone</h3>
         <p class="mt-2 text-sm text-slate-500">Website profil perusahaan responsif dengan desain modern.</p>
         <div class="mt-4 flex items-center justify-between">
@@ -64,7 +75,7 @@
       </article>
 
       <!-- Project 5 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1">
+      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="game">
         <div class="h-40 rounded-lg bg-gradient-to-br from-orange-50 to-pink-50 flex items-center justify-center">Mini Game</div>
         <h3 class="mt-4 font-semibold">Mini Game Pixel</h3>
         <p class="mt-2 text-sm text-slate-500">Game pixel sederhana yang dibuat dengan Construct 2.</p>
@@ -79,5 +90,8 @@
   <?php include '../template/footer.php' ?>
 
   <script src="../../assets/js/main.js"></script>
+  <script src="../../assets/js/filter.js"></script>
+
+
 </body>
 </html>

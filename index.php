@@ -25,8 +25,7 @@
           <p class="mt-4 text-slate-600 max-w-xl">I'm a frontend-focused developer who likes clean UI, small performant apps, and good coffee.</p>
 
           <div class="mt-6 flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-3 sm:space-y-0">
-            <a href="resource/views/project.php" class="inline-flex items-center px-5 py-2 rounded-md bg-indigo-600 text-white font-medium shadow hover:opacity-95">See projects</a>
-            <a href="#contact" class="inline-flex items-center px-5 py-2 rounded-md border border-slate-200">Contact me</a>
+            <a href="#contact" class="inline-flex items-center px-5 py-2 rounded-md bg-indigo-600 text-white font-medium shadow hover:opacity-95">Contact me</a>
           </div>
         </div>
 
@@ -43,6 +42,53 @@
       </div>
     </section>
 
+    <!-- Project -->
+         <!-- PROJECTS SECTION -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-indigo-600">💼 Featured Projects</h2>
+        <p class="text-slate-600 mt-2">Beberapa proyek pilihan yang pernah saya kerjakan.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <img src="assets/img/project1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-indigo-700">Portfolio Website</h3>
+            <p class="text-sm text-slate-600 mt-2">Website pribadi dengan desain responsif dan animasi halus menggunakan Tailwind CSS & AOS.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <img src="assets/img/project2.jpg" alt="Project 2" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-indigo-700">Inventory App</h3>
+            <p class="text-sm text-slate-600 mt-2">Aplikasi gudang berbasis web dengan fitur CRUD dan laporan penjualan, dibuat menggunakan PHP dan MySQL.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <img src="assets/img/project3.jpg" alt="Project 3" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-indigo-700">Game Pixel Adventure</h3>
+            <p class="text-sm text-slate-600 mt-2">Game platformer pixel sederhana yang dibuat menggunakan Construct 2 dan dioptimalkan untuk web.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="resource/views/project.php"
+           class="inline-block px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow hover:bg-indigo-700 transition-all duration-300">
+          See More →
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
     <section id="contact" class="max-w-3xl mx-auto px-6 py-12">
       <div class="reveal glass rounded-2xl p-6 shadow-md">
         <h2 class="text-2xl font-semibold">Contact</h2>

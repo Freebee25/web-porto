@@ -77,9 +77,9 @@
 
         <!-- Sertifikat 2 -->
         <div class="bg-white shadow-md p-6 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-          <img src="../../assets/img/certificate2.png" alt="Sertifikat 2" class="w-full h-40 object-cover rounded-md mb-3">
-          <h3 class="text-lg font-semibold text-indigo-700">Cloud Digital Leader Training</h3>
-          <p class="text-gray-600 text-sm mt-1">Google Cloud — 2023</p>
+          <img src="../../assets/img/revou.jpg" alt="Sertifikat 2" class="w-full h-40 object-cover rounded-md mb-3">
+          <h3 class="text-lg font-semibold text-indigo-700">Intro to Software Engineerring</h3>
+          <p class="text-gray-600 text-sm mt-1">RevoU — 2025</p>
           <a href="https://www.credential.net/" target="_blank" class="text-indigo-600 text-sm hover:underline mt-2 inline-block">Lihat Sertifikat</a>
         </div>
       </div>
