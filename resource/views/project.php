@@ -25,7 +25,7 @@
       <button class="filter-btn px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium" data-filter="all">All</button>
       <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="web">Web</button>
       <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="app">App</button>
-      <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="game">Game</button>
+      <!-- <button class="filter-btn px-4 py-2 rounded-full bg-white text-slate-700 border border-slate-200 text-sm font-medium" data-filter="game">Game</button> -->
     </div>
 
     <!-- Project Grid -->
@@ -43,12 +43,12 @@
 
       <!-- Project 2 -->
       <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="app">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-pink-50 to-yellow-50 flex items-center justify-center">File Storage</div>
-        <h3 class="mt-4 font-semibold">File Storage</h3>
+        <img src="../../assets/img/filerepo.PNG" class="h-40 rounded-lg object-cover" alt="filerepo">
+        <h3 class="mt-4 font-semibold">File Repository</h3>
         <p class="mt-2 text-sm text-slate-500">Aplikasi upload/download file dengan enkripsi dan proteksi password.</p>
         <div class="mt-4 flex items-center justify-between">
           <div class="text-xs text-slate-400">Tech: PHP, MySQL</div>
-          <a class="text-indigo-600 text-sm font-medium" href="#">View</a>
+          <a class="text-indigo-600 text-sm font-medium" href="https://freebee25.github.io/FileRepository-Demo">View</a>
         </div>
       </article>
 
@@ -75,7 +75,7 @@
       </article>
 
       <!-- Project 5 -->
-      <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="game">
+      <!-- <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="game">
         <div class="h-40 rounded-lg bg-gradient-to-br from-orange-50 to-pink-50 flex items-center justify-center">Mini Game</div>
         <h3 class="mt-4 font-semibold">Mini Game Pixel</h3>
         <p class="mt-2 text-sm text-slate-500">Game pixel sederhana yang dibuat dengan Construct 2.</p>
@@ -83,7 +83,7 @@
           <div class="text-xs text-slate-400">Tech: Construct 2</div>
           <a class="text-indigo-600 text-sm font-medium" href="#">View</a>
         </div>
-      </article>
+      </article> -->
     </div>
   </main>
 

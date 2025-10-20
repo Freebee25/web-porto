@@ -5,12 +5,12 @@
     <!-- Sosial Media -->
     <div class="flex justify-center gap-8 mb-8">
       <!-- Instagram -->
-      <a href="https://instagram.com/usernamekamu" target="_blank" class="hover:text-pink-500 transition">
+      <a href="https://www.instagram.com/fribyanyusuf?igsh=dXZnbDF3a2s5amlx" target="_blank" class="hover:text-pink-500 transition">
         <i class="fab fa-instagram text-3xl glow-hover" style="--glow-color: #E1306C;"></i>
       </a>
 
       <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/usernamekamu" target="_blank" class="hover:text-blue-600 transition">
+      <a href="https://www.linkedin.com/in/fribyan-yusuf-480911293/" target="_blank" class="hover:text-blue-600 transition">
         <i class="fab fa-linkedin text-3xl glow-hover" style="--glow-color: #0077B5;"></i>
       </a>
 

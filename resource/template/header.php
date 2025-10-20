@@ -9,7 +9,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
       <a href="<?= $basePath ?>index.php" class="flex items-center space-x-3">
-        <img src="../../assets/img/logo.png" alt="logo" class="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">
+        <img src="<?= $basePath ?>assets/img/logo.png" alt="logo" class="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">
         <!-- <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">I</div> -->
         <span class="font-semibold text-slate-800">Ian</span>
       </a>
