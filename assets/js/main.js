@@ -79,5 +79,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// contact
+
 // Jalankan saat pertama kali load
 reveal();

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Projects — Ian</title>
+  <title>Projects</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -32,12 +32,12 @@
     <div id="projectGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Project 1 -->
       <article class="reveal p-4 bg-white rounded-2xl shadow hover:shadow-lg transform hover:-translate-y-1 project-card" data-category="app">
-        <div class="h-40 rounded-lg bg-gradient-to-br from-indigo-50 to-teal-50 flex items-center justify-center">Inventory PWA</div>
-        <h3 class="mt-4 font-semibold">Inventory PWA</h3>
+        <img src="../../assets/img/gudang.PNG" class="h-40 rounded-lg object-cover" alt="inventory">
+        <h3 class="mt-4 font-semibold">Inventory </h3>
         <p class="mt-2 text-sm text-slate-500">Progressive web app untuk manajemen stok yang bisa berjalan offline.</p>
         <div class="mt-4 flex items-center justify-between">
           <div class="text-xs text-slate-400">Tech: Vue, PWA</div>
-          <a class="text-indigo-600 text-sm font-medium" href="#">View</a>
+          <a class="text-indigo-600 text-sm font-medium" href="https://github.com/Freebee25/Gudang-pwa.git">View</a>
         </div>
       </article>
 
